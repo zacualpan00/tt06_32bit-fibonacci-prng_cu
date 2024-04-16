@@ -1,8 +1,8 @@
 # Tiny Tapeout project information (Wokwi project)
-project:
-  wokwi_id:     394704587372210177       # Set this to the ID of your Wokwi project (the number from the project's URL)
+project: Probador de compuertas
+  wokwi_id:     395345945025883137       # Set this to the ID of your Wokwi project (the number from the project's URL)
   title:        "32-Bit Fibonacci Linear Feedback Shift Register"      # Project title
-  author:       "icaris lab"      # Your name
+  author:       "zacualpan00"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "32-bit Fibonacci libear feedback shift register with taps at (32, 30, 26, 25)."      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
@@ -14,24 +14,24 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: "data_in"
-  ui[2]: "load_en"
-  ui[3]: ""
-  ui[4]: ""
-  ui[5]: ""
-  ui[6]: ""
-  ui[7]: ""
+  ui[0]: "E0"
+  ui[1]: "E1"
+  ui[2]: "E2"
+  ui[3]: "E3"
+  ui[4]: "E4"
+  ui[5]: "E5"
+  ui[6]: "E6"
+
 
   # Outputs
-  uo[0]: "r25_val"
-  uo[1]: "r26_val"
-  uo[2]: "r27_val"
-  uo[3]: "r28_val"
-  uo[4]: "r29_val"
-  uo[5]: "r30_val"
-  uo[6]: "r31_val"
-  uo[7]: "r32_val_LSFR_out"
+  uo[0]: "S0"
+  uo[1]: "S1"
+  uo[2]: "S2"
+  uo[3]: "S3"
+  uo[4]: "S4"
+  uo[5]: "S5"
+  uo[6]: "S6"
+
 
   # Bidirectional pins
   uio[0]: ""
