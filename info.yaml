@@ -1,6 +1,6 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
-  wokwi_id:     395345945025883137       # t this to the ID of your Wokwi project (the number from the project's URL)
+  wokwi_id:  395345945025883137       # t this to the ID of your Wokwi project (the number from the project's URL)
   title:        "32-Bit Fibonacci Linear Feedback Shift Register"      # Project title
   author:       "zacualpan00"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
